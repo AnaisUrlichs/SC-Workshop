@@ -43,7 +43,7 @@ jobs:
       with:
         scan-type: "fs"
         format: 'table'
-        exit-code: '1'
+        exit-code: '0'
         scanners: 'secret'
 ```
    - Run the new workflow and find the credential within the workflow logs
